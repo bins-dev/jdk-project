@@ -1,0 +1,6 @@
+#!/bin/bash
+cd jdk8u
+git pull jdk8u master
+git push origin master
+git fetch jdk8u --tags master
+git push origin master --tags
