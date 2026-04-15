@@ -1,0 +1,6 @@
+#!/bin/bash
+cd jdk11u
+git pull jdk11u master
+git push origin master
+git fetch jdk11u --tags master
+git push origin master --tags
