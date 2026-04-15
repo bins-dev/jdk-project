@@ -1,3 +1,6 @@
 [submodule "jdk"]
 	path = jdk
 	url = https://github.com/bins-dev/jdk.git
+[submodule "jdk8u"]
+	path = jdk8u
+	url = https://github.com/bins-dev/jdk8u.git
