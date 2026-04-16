@@ -13,3 +13,6 @@
 [submodule "jdk21u"]
 	path = jdk21u
 	url = https://github.com/bins-dev/jdk21u.git
+[submodule "jdk25u"]
+	path = jdk25u
+	url = https://github.com/bins-dev/jdk25u.git
