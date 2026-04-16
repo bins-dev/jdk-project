@@ -1,6 +1,10 @@
 #!/bin/bash
-cd jdk
-git pull jdk master
+REPO_NAME=jdk
+cd ${REPO_NAME}
+if ! git remote | grep -q "^${REPO_NAME}\$"; then
+	git remote add ${REPO_NAME} https://github.com/openjdk/jdk.git
+fi
+git pull ${REPO_NAME} master
 git push origin master
-git fetch jdk --tags master
+git fetch ${REPO_NAME} --tags master
 git push origin master --tags
