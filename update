@@ -41,7 +41,6 @@ for script in "${scripts[@]}"; do
 
     if [ -z "$CHANGED_FILES" ]; then
         echo "没有需要提交的变更"
-        exit 0
     fi
 
     # 提取顶层文件名或目录名并去重
