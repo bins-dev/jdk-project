@@ -43,7 +43,7 @@ for script in "${scripts[@]}"; do
     echo -e "\e[34m开始推送更新到origin仓库\e[0m"
     echo -e "\e[34m-----------------------------------------------\e[0m"
     if [ -z "$CHANGED_FILES" ]; then
-        echo "\e[34m没有需要提交的变更\e[0m"
+        echo -e "\e[34m没有需要提交的变更\e[0m"
 	echo ""
 	continue
     fi
