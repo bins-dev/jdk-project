@@ -1,18 +1,24 @@
 [submodule "jdk"]
 	path = jdk
 	url = https://github.com/bins-dev/jdk.git
+	branch = master
 [submodule "jdk8u"]
 	path = jdk8u
 	url = https://github.com/bins-dev/jdk8u.git
+	branch = master
 [submodule "jdk11u"]
 	path = jdk11u
 	url = https://github.com/bins-dev/jdk11u.git
+	branch = master
 [submodule "jdk17u"]
 	path = jdk17u
 	url = https://github.com/bins-dev/jdk17u.git
+	branch = master
 [submodule "jdk21u"]
 	path = jdk21u
 	url = https://github.com/bins-dev/jdk21u.git
+	branch = master
 [submodule "jdk25u"]
 	path = jdk25u
 	url = https://github.com/bins-dev/jdk25u.git
+	branch = master

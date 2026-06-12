@@ -1,7 +1,5 @@
 #!/bin/bash
 REPO_NAME=jdk17u
 cd ${REPO_NAME}
-git pull ${REPO_NAME} master
-git push origin master
-git fetch ${REPO_NAME} --tags master
-git push origin master --tags
+git pull ${REPO_NAME} master && git push origin master
+git fetch ${REPO_NAME} --tags master && git push origin master --tags

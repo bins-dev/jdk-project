@@ -1,10 +1,9 @@
 #!/bin/bash
 REPO_NAME=jdk25u
 cd ${REPO_NAME}
+git checkout master
 if ! git remote | grep -q "^${REPO_NAME}\$"; then
 	git remote add ${REPO_NAME} https://github.com/openjdk/jdk25u.git
 fi
-git pull ${REPO_NAME} master
-git push origin master
-git fetch ${REPO_NAME} --tags master
-git push origin master --tags
+git pull ${REPO_NAME} master && git push origin master
+git fetch ${REPO_NAME} --tags master && git push origin master --tags
